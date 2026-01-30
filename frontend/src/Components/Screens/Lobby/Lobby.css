@@ -1,0 +1,31 @@
+.lobby_container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.lobby{
+    border: 1px solid rgba(99, 128, 255, 0.5);
+    box-shadow: 0 0 10px #bf97ff3d;
+    background: transparent;
+    border-radius: 0.25em;
+    height: 70vh;
+    width: 55vw;
+}
+
+.lobby_header{
+    font-size: 16px;
+}
+
+.in_feild{
+    width: 20vw;
+    height: 3.5vw;
+    margin: 1.5em;
+    padding-left: 0.8em;
+    color: white;
+}
+
+.join_btn{
+    padding: 0.2em 1em;
+    font-size: 20px;
+    border-radius: 0.25em;
+}

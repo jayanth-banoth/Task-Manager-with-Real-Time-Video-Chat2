@@ -1,0 +1,69 @@
+
+.navbar {
+    height: 4vw;
+    width: 100vw;
+    color: white;
+    z-index: 50;
+}
+
+.in_ctn {
+    width: 90vw;
+}
+
+.logo_box {
+    height: 100%;
+    width: 12.5vw;
+}
+
+.logo_name{
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+.list_box {
+    list-style: none;
+    height: 100%;
+    width: 30vw;
+}
+
+.list_box>li>a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.btn_box {
+    height: 100%;
+    width: 12.5vw;
+}
+
+.btn {
+    border-radius: 0.25em;
+    height: 100%;
+    width: 5vw;
+}
+
+.log_btn {
+    border: 1px solid rgba(99, 128, 255, 0.5);
+    box-shadow: 0 0 5px #bf97ff3d;
+    background: transparent;
+}
+
+.log_btn:hover{
+    background: rgba(255, 255, 255, 0.336);
+}
+
+.profile_box{
+    width:12.5vw;
+}
+
+.dropdown{
+    height: 12vh;
+    width: 8vw;
+    top: 4.5vw;
+    right: 4vw;
+}
+#false_dis{
+    display: none;
+}
+#true_dis{
+    display: flex;
+}

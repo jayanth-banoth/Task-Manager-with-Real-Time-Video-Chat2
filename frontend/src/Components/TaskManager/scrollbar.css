@@ -1,0 +1,34 @@
+.task_box::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.task_box::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 10px;
+}
+
+.task_box::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.task_box::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Hide the scrollbar arrows for WebKit browsers */
+.task_box::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Scrollbar styling for Firefox */
+.task_box {
+    scrollbar-width: thin;
+    scrollbar-color: #8f8f8f rgb(76, 76, 76);
+}
+
+/* Scrollbar styling for Internet Explorer and Edge */
+.task_box {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
